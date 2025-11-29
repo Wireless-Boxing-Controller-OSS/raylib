@@ -111,6 +111,11 @@
 #ifndef RLGL_H
 #define RLGL_H
 
+#undef GRAPHICS_API_OPENGL_43
+#undef GRAPHICS_API_OPENGL_33
+#undef GRAPHICS_API_OPENGL_21
+#define GRAPHICS_API_OPENGL_11
+
 #define RLGL_VERSION  "5.0"
 
 // Function specifiers in case library is build/used as a shared library
